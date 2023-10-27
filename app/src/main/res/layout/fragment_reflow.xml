@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.reflow.ReflowFragment">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="372dp"
+        android:layout_height="158dp"
+        android:layout_marginBottom="408dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sensorbg" />
+
+    <ImageView
+        android:id="@+id/connectbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:contentDescription="@string/screen_move"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/middlebgv2" />
+
+    <ImageView
+        android:id="@+id/openconnect"
+        android:layout_width="145dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/screen_move"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="@+id/connectbg"
+        app:layout_constraintTop_toTopOf="@+id/connectbg"
+        app:srcCompat="@drawable/openconnect" />
+
+    <ImageView
+        android:id="@+id/lockconnect"
+        android:layout_width="145dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="198dp"
+        android:contentDescription="@string/screen_move"
+        app:layout_constraintBottom_toBottomOf="@+id/connectbg"
+        app:layout_constraintEnd_toEndOf="@+id/connectbg"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/openconnect"
+
+        app:layout_constraintTop_toTopOf="@+id/connectbg"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/lockconnect" />
+
+    <ImageView
+        android:contentDescription="@string/screen_move"
+        android:id="@+id/peopleconnect"
+        android:layout_width="114dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/connectbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/connectbg"
+        app:layout_constraintTop_toBottomOf="@+id/openconnect"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/peopleconnect" />
+
+    <TextView
+        android:id="@+id/openconnecttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="연동 안됨"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nanumbarungothicbold"
+        app:layout_constraintBottom_toBottomOf="@+id/openconnect"
+        app:layout_constraintEnd_toEndOf="@+id/openconnect"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/openconnect"
+        app:layout_constraintTop_toTopOf="@+id/openconnect"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <TextView
+        android:id="@+id/lockconnecttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="연동 안됨"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nanumbarungothicbold"
+        app:layout_constraintBottom_toBottomOf="@+id/lockconnect"
+        app:layout_constraintEnd_toEndOf="@+id/lockconnect"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/lockconnect"
+        app:layout_constraintTop_toTopOf="@+id/lockconnect"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <TextView
+        android:id="@+id/peopleconnecttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="26dp"
+        android:text="연동 안됨"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nanumbarungothicbold"
+        app:layout_constraintBottom_toBottomOf="@+id/peopleconnect"
+        app:layout_constraintEnd_toEndOf="@+id/peopleconnect"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/peopleconnect"
+        app:layout_constraintTop_toTopOf="@+id/peopleconnect" />
+
+    <ImageView
+        android:id="@+id/bluebttonbg"
+        android:layout_width="105dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lockconnect"
+        app:layout_constraintVertical_bias="0.254"
+        app:srcCompat="@drawable/bluebg" />
+
+    <TextView
+        android:id="@+id/connectionStatusTextView"
+        android:layout_width="100dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/nanumbarungothicbold"
+        android:text="연동 안됨"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bluebttonbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        app:layout_constraintBottom_toTopOf="@+id/connectionStatusTextView"
+        app:layout_constraintEnd_toEndOf="@+id/bluebttonbg"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/bluebttonbg"
+        app:layout_constraintTop_toTopOf="@+id/bluebttonbg"
+        app:layout_constraintVertical_bias="0.684"
+        app:srcCompat="@drawable/daco_524959" />
+
+    <ImageView
+        android:id="@+id/bluebttonbg7"
+        android:layout_width="90dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sendButton"
+        app:layout_constraintEnd_toEndOf="@+id/sendButton"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="@+id/sendButton"
+        app:layout_constraintTop_toTopOf="@+id/sendButton"
+        app:layout_constraintVertical_bias="0.967"
+        app:srcCompat="@drawable/bluebg" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:background="#0074AEE7"
+        android:backgroundTint="#00FFFFFF"
+        android:text="wifi 설정값 전송"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toEndOf="@+id/connectButton"
+        app:layout_constraintTop_toBottomOf="@+id/connectbg"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <ImageView
+        android:id="@+id/bluebttonbg5"
+        android:layout_width="90dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="@+id/connectButton"
+        app:layout_constraintEnd_toEndOf="@+id/connectButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/connectButton"
+        app:layout_constraintTop_toTopOf="@+id/connectButton"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bluebg" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="90dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="56dp"
+        android:background="#0074AEE7"
+        android:backgroundTint="#00FFFFFF"
+        android:text="블루투스연결"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connectbg"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="블루투스 연결 상태"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/connectbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toEndOf="@+id/peopleconnect"
+        app:layout_constraintTop_toBottomOf="@+id/bluebttonbg"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/temperaturetext"
+        android:layout_width="86dp"
+        android:layout_height="22dp"
+        android:ems="10"
+        android:fontFamily="@font/nanumbarungothicbold"
+        android:text="date"
+        android:textColor="#65A5DE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/connectbg"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/humiditytext"
+        android:layout_width="69dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:fontFamily="@font/nanumbarungothicbold"
+        android:text="date"
+        android:textColor="#65A5DE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/connectbg"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/finedusttext"
+        android:layout_width="83dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:fontFamily="@font/nanumbarungothicbold"
+        android:text="date"
+        android:textColor="#65A5DE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/connectbg"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

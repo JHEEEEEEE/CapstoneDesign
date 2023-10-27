@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ControlApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">자동창문개폐기</string>
+    <string name="nav_header_subtitle">tkdaud57@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">메인</string>
+    <string name="menu_reflow">연동</string>
+    <string name="menu_slideshow">날씨</string>
+    <string name="menu_settings">설정</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+    <string name="human_count_template">%d인</string>
+    <string name="screen_move">화면 이동</string>
+    <string name="temperature_template">%s</string>
+    <string name="humidity_template">%s</string>
+    <string name="finedust_template">%s</string>
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!--    날씨-->
+    <string name="api_key">248dfa89fc678d8a6b19f9bf59ac64a9</string>
+    <string name="air_quality">대기질</string>
+    <string name="perfect">완벽함</string>
+    <string name="good">매우 좋음</string>
+    <string name="fair">좋음</string>
+    <string name="moderate">보통</string>
+    <string name="poor">나쁨</string>
+    <string name="very_poor">매우 나쁨</string>
+    <string name="sunrise">일출시간</string>
+    <string name="sunset">일몰시간</string>
+    <string name="pressure">기압</string>
+    <string name="humidity">습도</string>
+    <string name="wind_speed">풍속</string>
+    <string name="location">위치</string>
+    <string name="max_temp">최고기온</string>
+    <string name="min_temp">최저기온</string>
+    <string name="feels_like">체감온도</string>
+    <string name="five_days_forecast">5일 기상 예보</string>
+    <string name="clear_sky">깨끗한 하늘</string>
+    <string name="updated_at">업데이트시각</string>
+    <string name="_24_c">24°C</string>
+
+
+<!--    transformfragment.kt 경고창 없애기-->
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="open_percent_format">%d %%</string>
+    <string name="seekbar_progress_format">%d %%</string>
+</resources>
