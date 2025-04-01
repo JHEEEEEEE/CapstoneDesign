@@ -16,13 +16,9 @@
 - **창문 원격 잠금**: 외출 중에도 스마트폰으로 창문 잠금  
 - **재실 인원 수 제공**: 실내 인원 수 실시간 제공
 
-| **시작화면** | **스플래시화면** |
-|----------------------------------|----------------------------------|
-|<img width="320" alt="시작화면" src="https://github.com/user-attachments/assets/d5dc3214-f9a0-4343-9717-70605be24d30" />| <img width="320" alt="스플래시" src="https://github.com/user-attachments/assets/fe3c4141-6338-499f-b393-e606c9a8bff9" /> 
-
-| **홈화면** |
-|----------------------------------|
-| <img width="400" alt="홈화면" src="https://github.com/user-attachments/assets/94b8e208-03bb-4dd5-99ac-578526688c95" />|
+| **시작화면** | **스플래시화면** | **홈화면** |
+|----------------------------------|----------------------------------|----------------------------------|
+|<img width="200" alt="시작화면" src="https://github.com/user-attachments/assets/d5dc3214-f9a0-4343-9717-70605be24d30" />| <img width="200" alt="스플래시" src="https://github.com/user-attachments/assets/fe3c4141-6338-499f-b393-e606c9a8bff9" /> | <img width="400" alt="홈화면" src="https://github.com/user-attachments/assets/94b8e208-03bb-4dd5-99ac-578526688c95" />|
 
 ### 2️⃣ **연동 탭**  
 - **실내 미세먼지 농도 / 온습도 제공**:  
@@ -59,7 +55,19 @@
 ---
 
 ## 🛠 **기술 스택**  
-
+| **Category**            | **Technologies**  |
+|-------------------------|-----------------------------------------------|
+| **Architecture**        | Google App Architecture, MVVM |
+| **Networking**         | Retrofit, OkHttp, Interceptor, Gson          |
+| **Data Storage**       | Firebase RealTimebase                         |
+| **UI/UX**              | Glide, Material 3                            |
+| **Navigation**         | Navigation Graph                             |
+| **Bluetooth**          | Bluetooth Low Energy                         |
+| **API**                | OpenWeather API                               |
+| **Permissions**        | Runtime Permission, Gatt permission         |
+| **UI State**           | StateFlow                                  |
+| **Concurrency**        | Thread, Coroutine, Flow                     |
+| **Data Binding**       | ViewBinding, FlowBinding                    |
 
 ---
 
@@ -87,22 +95,13 @@
 
 | **센서부** | **센서부 동작원리** | 
 |----------------------------------|----------------------------------|
-| <img width="480" alt="센서부" src="https://github.com/user-attachments/assets/5e9072a5-0398-42a1-81ff-72b567125a56" />|<img width="384" alt="image" src="https://github.com/user-attachments/assets/fa0d7e5c-0311-43a4-9de4-9fb986d68b67" /> |
+| <img width="400" alt="센서부" src="https://github.com/user-attachments/assets/5e9072a5-0398-42a1-81ff-72b567125a56" />|<img width="384" alt="image" src="https://github.com/user-attachments/assets/fa0d7e5c-0311-43a4-9de4-9fb986d68b67" /> |
 
 ---
 
 ## 🧑‍💻 **어플리케이션 흐름도**  
 
-1. **어플리케이션**:  
-   - **메인 탭**: 창문 상태, 자동 개폐, 원격 잠금, 재실 인원 정보 제공  
-   - **연동 탭**: 실내 환경 정보 제공, 센서 연동 상태 표시, WIFI 전송  
-   - **날씨 탭**: GPS 기반 날씨 정보 제공, 기상 예보 확인  
-   - **설정 탭**: WIFI 설정, 침입자 알림, 자동 잠금 설정  
-
-2. **Firebase 연동**:  
-   - 실시간 데이터 송수신을 통해 앱과 장치 간의 상태를 즉시 **업데이트**  
-
-3. **OpenWeather 연동**:  
-   - 실시간 날씨 정보를 제공하여 **사용자에게 유용한 환경 정보** 제공  
-
+| **어플리케이션 흐름도** |
+|----------------------------------|
+| <img width="428" alt="어플흐름도" src="https://github.com/user-attachments/assets/3bdee439-3ce4-415a-a22c-62427e628c91" />|
 ---
